@@ -1,0 +1,31 @@
+# Core
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+python-multipart>=0.0.12
+pydantic>=2.9.0
+pydantic-settings>=2.6.0
+
+# OCR & Document Processing
+paddleocr>=2.8.0
+paddlepaddle>=2.6.0          # CPU version; use paddlepaddle-gpu if GPU available
+opencv-python-headless>=4.10.0
+Pillow>=10.4.0
+pdf2image>=1.17.0
+numpy>=1.26.0
+
+# Data & Excel
+pandas>=2.2.0
+openpyxl>=3.1.5
+xlsxwriter>=3.2.0
+
+# UI (Quick MVP)
+streamlit>=1.39.0
+streamlit-drawable-canvas>=0.9.3
+
+# Utilities
+python-dotenv>=1.0.1
+loguru>=0.7.2
+typer>=0.12.0
+
+# Optional – for better PDF rendering on Linux
+# poppler-utils (system package: apt install poppler-utils)
